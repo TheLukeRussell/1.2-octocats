@@ -35,8 +35,11 @@ span.image-number {
   font-size: 14px;
   display: inline-block;
   float: left;
-  padding-left: 10px;
-  margin-top: 10px;
+  /* padding-left: 10px; */
+  margin-top: 8px;
+}
+span.image-number:before {
+    content: '#';
 }
 
 ul {
@@ -100,4 +103,6 @@ li img {
   border-style: solid;
   border-color: #CACACA;
   border-width: thin;
+}
+
 }
